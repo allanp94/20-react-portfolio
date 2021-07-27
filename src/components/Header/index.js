@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Nav from "../Nav/";
 import About from "../About";
+import Contact from "../Contact";
 import { current } from "immer";
 
 function Header() {
@@ -18,22 +19,17 @@ function Header() {
     switch (optionName) {
       case "About Me":
         return <About />;
-        break;
+
       case "Portfolio":
         // return <Portfolio />;
         return "Portfolio";
-        break;
       case "Contact":
-        // return <Contact />;
-        return "contact";
-        break;
+        return <Contact />;
       case "Resume":
         // return <Resume />;
         return "resume";
-        break;
       default:
         return "";
-        break;
     }
   };
 
