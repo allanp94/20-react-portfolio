@@ -42,52 +42,54 @@ function ContactForm() {
   return (
     <section>
       <div class="container is-fluid">
-        <h1 class="is-size-2 ml-2 mb-5 has-text-grey">Contact Me</h1>
+        <div class="notification has-background-light">
+          <h1 class="is-size-2 ml-2 mb-5 has-text-grey">Contact Me</h1>
 
-        <div class="field" onSubmit={handleSubmit}>
-          <label class="label">Name</label>
-          <div class="control">
-            <input
-              class="input"
-              type="text"
-              placeholder="Text input"
-              onBlur={handleChange}
-            />
+          <div class="field" onSubmit={handleSubmit}>
+            <label class="label">Name</label>
+            <div class="control">
+              <input
+                class="input"
+                type="text"
+                placeholder="Text input"
+                onBlur={handleChange}
+              />
+            </div>
           </div>
-        </div>
 
-        <div class="field">
-          <label class="label">Email</label>
-          <div class="control has-icons-left has-icons-right">
-            <input
-              class="input"
-              type="email"
-              placeholder="Email input"
-              onBlur={handleChange}
-            />
-            <span class="icon is-small is-left">
-              <i class="fas fa-envelope"></i>
-            </span>
-            <span class="icon is-small is-right">
-              <i class="fas fa-exclamation-triangle"></i>
-            </span>
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+              <input
+                class="input"
+                type="email"
+                placeholder="Email input"
+                onBlur={handleChange}
+              />
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-exclamation-triangle"></i>
+              </span>
+            </div>
           </div>
-        </div>
 
-        <div class="field">
-          <label class="label">Message</label>
-          <div class="control">
-            <textarea
-              class="textarea"
-              placeholder="Textarea"
-              onBlur={handleChange}
-            ></textarea>
+          <div class="field">
+            <label class="label">Message</label>
+            <div class="control">
+              <textarea
+                class="textarea"
+                placeholder="Textarea"
+                onBlur={handleChange}
+              ></textarea>
+            </div>
           </div>
-        </div>
 
-        <div class="field is-grouped">
-          <div class="control">
-            <button class="button is-link">Submit</button>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-link">Submit</button>
+            </div>
           </div>
         </div>
       </div>

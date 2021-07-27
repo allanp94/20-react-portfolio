@@ -10,9 +10,12 @@ const Nav = (props) => {
     >
       <div class="navbar-menu is-active">
         <div class="navbar-start">
-          <button class="button is-large is-ghost is-inverted is-size-2">
+          <a
+            class="button is-large is-ghost is-inverted is-size-2"
+            href="#about"
+          >
             Allan Pirillis
-          </button>
+          </a>
         </div>
 
         <div id="navbarHamburger" class="navbar-end has-text-dark ">
