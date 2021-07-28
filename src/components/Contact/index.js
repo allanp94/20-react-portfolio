@@ -41,15 +41,17 @@ function ContactForm() {
 
   return (
     <section>
-      <div class="container is-fluid">
-        <div class="notification has-background-light">
-          <h1 class="is-size-2 ml-2 mb-5 has-text-grey">Contact Me</h1>
+      <div className="container is-fluid">
+        <div className="notification has-background-light">
+          <h1 className="is-size-2 ml-2 mb-5 has-text-grey is-family-code">
+            Contact Me
+          </h1>
 
-          <div class="field" onSubmit={handleSubmit}>
-            <label class="label">Name</label>
-            <div class="control">
+          <div className="field" onSubmit={handleSubmit}>
+            <label className="label is-family-code">Name</label>
+            <div className="control">
               <input
-                class="input"
+                className="input"
                 type="text"
                 placeholder="Text input"
                 onBlur={handleChange}
@@ -57,38 +59,44 @@ function ContactForm() {
             </div>
           </div>
 
-          <div class="field">
-            <label class="label">Email</label>
-            <div class="control has-icons-left has-icons-right">
+          <div className="field">
+            <label className="label is-family-code">Email</label>
+            <div className="control has-icons-left has-icons-right">
               <input
-                class="input"
+                className="input"
                 type="email"
-                placeholder="Email input"
+                placeholder="@gmail.com"
                 onBlur={handleChange}
               />
-              <span class="icon is-small is-left">
-                <i class="fas fa-envelope"></i>
+              <span className="icon is-small is-left">
+                <i className="fas fa-envelope"></i>
               </span>
-              <span class="icon is-small is-right">
-                <i class="fas fa-exclamation-triangle"></i>
+              <span className="icon is-small is-right">
+                <i className="fas fa-exclamation-triangle"></i>
               </span>
             </div>
           </div>
 
-          <div class="field">
-            <label class="label">Message</label>
-            <div class="control">
+          <div className="field">
+            <label className="label is-family-code">Message</label>
+            <div className="control">
               <textarea
-                class="textarea"
+                className="textarea"
                 placeholder="Textarea"
                 onBlur={handleChange}
               ></textarea>
             </div>
           </div>
-
-          <div class="field is-grouped">
-            <div class="control">
-              <button class="button is-link">Submit</button>
+          {errorMessage && (
+            <div>
+              <p classNameName="is-danger">{errorMessage}</p>
+            </div>
+          )}
+          <div className="field is-grouped">
+            <div className="control">
+              <button className="button is-link is-family-code" type="submit">
+                Submit
+              </button>
             </div>
           </div>
         </div>
