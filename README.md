@@ -8,6 +8,10 @@ My portfolio using React to create a Single Page Application that conditionaly r
 
 ## Link to Deployed Application
 
+https://allanp94.github.io/20-react-portfolio/
+
+---
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -56,3 +60,5 @@ Email: allan.p94@gmail.com
 ---
 
 ## Screenshot
+
+![Screenshot](./src/img/screenshot.png)
