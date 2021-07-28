@@ -10,7 +10,7 @@ const Nav = (props) => {
     >
       <div className="navbar-menu is-active">
         <div className="navbar-start">
-          <p className=" is-large is-ghost is-inverted is-size-2 has-text-info-dark is-centered m-4">
+          <p className=" is-large is-size-2 has-text-info-dark is-centered m-4 allan-user">
             Allan Pirillis
           </p>
         </div>

@@ -1,0 +1,68 @@
+import React, { useState } from "react";
+import { Document, Page } from "react-pdf";
+import File from "../../img/APResumeKoumbaros9.pdf";
+
+const Resume = () => {
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
+
+  return (
+    <>
+      <section className="hero is-small notification">
+        <div class="content">
+          <h1>Education</h1>
+          <p>
+            <span className="is-size-4">
+              Full Stack Web Developer Certificate
+            </span>
+            <br /> Online Bootcamp Trilogy Education Services
+            <br /> Ongoing <br />
+          </p>
+          <br />
+          <p>
+            <span className="is-size-4">B.S. in Computer Science</span>
+            <br /> North Dakota State University, Fargo, ND.
+            <br /> 2019 <br />
+            GPA: 3.4/4
+          </p>
+          <dl>
+            <h2>Skills</h2>
+            <dt>Front-End</dt>
+            <dd>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>JSON</li>
+                <li>AJAX</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+                <li>Bulma</li>
+              </ul>
+            </dd>
+            <br />
+            <dt>Back-End</dt>
+            <dd>
+              <ul>
+                <li>JQuery</li>
+                <li>API</li>
+                <li>MongoDB</li>
+                <li>Mongoose</li>
+                <li>GraphQL</li>
+                <li>SQL</li>
+                <li>Node.js</li>
+                <li>Express.s</li>
+              </ul>
+            </dd>
+          </dl>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Resume;

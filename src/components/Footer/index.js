@@ -20,7 +20,8 @@ const Footer = () => {
           <div class="level-item has-text-centered">
             <div>
               <span className="content is-small">
-                Created and Designed by Allan Pirillis
+                Created and Designed by{" "}
+                <span className="allan-user is-small">Allan Pirillis</span>
               </span>
             </div>
           </div>

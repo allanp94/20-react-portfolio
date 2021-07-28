@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.allan-user {
+  font-family: "Zen Tokyo Zoo", cursive;
+}
+
 .img-container {
   position: relative;
   width: 50%;

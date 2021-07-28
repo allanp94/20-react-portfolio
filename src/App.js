@@ -5,6 +5,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
+import Resume from "./components/Resume";
 
 function App() {
   const navOptions = [
@@ -25,8 +26,7 @@ function App() {
       case "Contact":
         return <Contact />;
       case "Resume":
-        // return <Resume />;
-        return "resume";
+        return <Resume />;
       default:
         return <About />;
     }

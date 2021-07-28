@@ -5,7 +5,7 @@ function About() {
   return (
     <section className="hero is-small notification">
       <div className="hero-body ">
-        <h1 className="is-size-2 ml-2 mb-5 has-text-grey is-family-code">
+        <h1 className="is-size-2 ml-2 mb-5 has-text-grey is-family-code ">
           About Me
         </h1>
         <Avatar
