@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 
 function App() {
   const navOptions = [
@@ -27,7 +28,7 @@ function App() {
         // return <Resume />;
         return "resume";
       default:
-        return "";
+        return <About />;
     }
   };
 
@@ -39,6 +40,7 @@ function App() {
         setCurrentOption={setCurrentOption}
       />
       {renderOption(currentOption)}
+      <Footer />
     </div>
   );
 }

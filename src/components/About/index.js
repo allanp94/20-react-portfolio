@@ -4,7 +4,7 @@ import Avatar from "react-avatar";
 function About() {
   return (
     <section className="hero is-small notification">
-      <div className="hero-body">
+      <div className="hero-body ">
         <h1 className="is-size-2 ml-2 mb-5 has-text-grey is-family-code">
           About Me
         </h1>
@@ -14,16 +14,19 @@ function About() {
           src={require(`../../img/allan-heroImg.jpg`).default}
           round={true}
         />
+        <span className="is-size-3 is-flex mt-6">
+          "Φαί φύλαξε αλλά δουλεία μεν φυλάξεις"
+        </span>
         <div className="mt-6">
-          Next, we will personalize the application's navigation bar to the
-          logged-in user. Most modern web applications do something like this,
-          where a logged-out user sees navigation items geared towards getting
-          them to sign up or log in; but a logged-in user sees navigation items
-          geared towards them viewing their personalized data or logging out.
-          Let's navigate to the index.js file, located in the Header folder in
-          the components directory. The first thing we need to do is import the
-          AuthService functionality we just created, so let's do so with the
-          following import statement towards the top of the file:
+          A bilingual Individual that graduated with a B.S in Computer Science
+          from NDSU that aspires to continuously learn. Growing up with family
+          on both sides of an ocean has taught me the importance of engaging in
+          relationships but also the value of maintaining them. With constant
+          growth and fluent communication I am eager to apply my skills as a
+          Software Developer in our fast paced technological world.{" "}
+          <span className="content is-small">
+            quote: "Save food but don't save any work"
+          </span>
         </div>
       </div>
     </section>

@@ -55,6 +55,7 @@ function ContactForm() {
                 type="text"
                 placeholder="Text input"
                 onBlur={handleChange}
+                name="name"
               />
             </div>
           </div>
@@ -67,6 +68,7 @@ function ContactForm() {
                 type="email"
                 placeholder="@gmail.com"
                 onBlur={handleChange}
+                name="email"
               />
               <span className="icon is-small is-left">
                 <i className="fas fa-envelope"></i>
@@ -84,6 +86,7 @@ function ContactForm() {
                 className="textarea"
                 placeholder="Textarea"
                 onBlur={handleChange}
+                name="message"
               ></textarea>
             </div>
           </div>
