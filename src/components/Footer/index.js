@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer class="footer notification">
       <div class="content has-text-centered">
-        <nav class="level is-mobile">
+        <div class="level is-mobile">
           <div class="level-item has-text-centered">
             <div>
               <a
@@ -36,7 +36,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-        </nav>
+        </div>
       </div>
     </footer>
   );

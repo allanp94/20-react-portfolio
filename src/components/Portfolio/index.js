@@ -4,6 +4,12 @@ import Project from "../Project";
 const Portfolio = () => {
   const projects = [
     {
+      title: "Stack Tracker",
+      link: "https://sleepy-thicket-12395.herokuapp.com/",
+      githubLink: "https://github.com/stack-tracker/stack-tracker",
+      image: require("../../img/stack-tracker.png").default,
+    },
+    {
       title: "Celiac Tackboard",
       link: "https://polar-brook-06864.herokuapp.com/",
       githubLink: "https://github.com/celiac-tackboard/celiac-tackboard",
