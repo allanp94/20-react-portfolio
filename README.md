@@ -6,6 +6,7 @@ My portfolio using React to create a Single Page Application that conditionaly r
 
 ---
 
+
 ## Link to Deployed Application
 
 https://allanp94.github.io/20-react-portfolio/
