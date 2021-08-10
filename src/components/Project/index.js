@@ -4,9 +4,9 @@ import { FaGithub } from "react-icons/fa";
 
 const Project = ({ projects }) => {
   return (
-    <div className="container is-centered is-fluid">
+    <div className="container is-centered">
       <div className="notification has-background-light">
-        <div className="tile is-ancestor is-flex-wrap-wrap is-flex-mobile is-justify-content-space-between">
+        <div className="tile is-ancestor is-flex-wrap-wrap is-justify-content-space-between">
           {projects.map((prjct) => (
             <div className="tile is-5 is-parent m-2 img-container">
               <div className="tile is-child" key={prjct.title}>
