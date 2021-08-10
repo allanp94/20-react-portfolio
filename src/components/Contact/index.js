@@ -10,7 +10,7 @@ function ContactForm() {
     message: "",
   });
 
-  const { name, email, message } = formState;
+  // const { name, email, message } = formState;
 
   function handleChange(e) {
     if (e.target.name === "email") {

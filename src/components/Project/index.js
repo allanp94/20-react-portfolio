@@ -8,8 +8,11 @@ const Project = ({ projects }) => {
       <div className="notification has-background-light">
         <div className="tile is-ancestor is-flex-wrap-wrap is-justify-content-space-between">
           {projects.map((prjct) => (
-            <div className="tile is-5 is-parent m-2 img-container">
-              <div className="tile is-child" key={prjct.title}>
+            <div
+              className="tile is-5 is-parent m-2 img-container"
+              key={prjct.title}
+            >
+              <div className="tile is-child">
                 <a
                   href={prjct.link}
                   target="_blank"
@@ -22,8 +25,8 @@ const Project = ({ projects }) => {
                     alt={prjct.title}
                   />
                 </a>
-                <nav class="level is-block img-icon ">
-                  <div class="level-item is-block has-text-centered">
+                <nav className="level is-block img-icon ">
+                  <div className="level-item is-block has-text-centered">
                     <a
                       className="is-size-5 "
                       href={prjct.link}
