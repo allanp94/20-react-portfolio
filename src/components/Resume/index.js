@@ -3,6 +3,17 @@ import React from "react";
 const Resume = () => {
   return (
     <>
+      <a
+        href={uploadedFileLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        download
+      >
+        <Button>
+          <i className="fas fa-download" />
+          Download File
+        </Button>
+      </a>
       <section className="hero is-small notification">
         <div class="content">
           <h1>Education</h1>
