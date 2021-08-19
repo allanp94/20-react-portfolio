@@ -7,13 +7,42 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const Resume = () => {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
-  const [width, setWidth] = useState(window.innerWidth);
 
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
   }
 
-  useEffect(() => {}, []);
+  function useWindowDimensions() {
+    const hasWindow = typeof window !== "undefined";
+
+    function getWindowDimensions() {
+      const width = hasWindow ? window.innerWidth : null;
+      const height = hasWindow ? window.innerHeight : null;
+      return {
+        width,
+        height,
+      };
+    }
+
+    const [windowDimensions, setWindowDimensions] = useState(
+      getWindowDimensions()
+    );
+
+    useEffect(() => {
+      if (hasWindow) {
+        function handleResize() {
+          setWindowDimensions(getWindowDimensions());
+        }
+
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+      }
+    }, [hasWindow]);
+
+    return windowDimensions;
+  }
+
+  const { width, height } = useWindowDimensions();
 
   return (
     <>
@@ -28,7 +57,7 @@ const Resume = () => {
         Download File
       </a>
       <Document file={resume} onLoadSuccess={onDocumentLoadSuccess}>
-        <Page pageNumber={pageNumber} width={width} />
+        <Page pageNumber={pageNumber} width={width} height={height} />
       </Document>
     </>
   );
