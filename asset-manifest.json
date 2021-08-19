@@ -1,28 +1,29 @@
 {
   "files": {
     "main.css": "/20-react-portfolio/static/css/main.7d92ae85.chunk.css",
-    "main.js": "/20-react-portfolio/static/js/main.3b9951fa.chunk.js",
-    "main.js.map": "/20-react-portfolio/static/js/main.3b9951fa.chunk.js.map",
-    "runtime-main.js": "/20-react-portfolio/static/js/runtime-main.ac7c1055.js",
-    "runtime-main.js.map": "/20-react-portfolio/static/js/runtime-main.ac7c1055.js.map",
-    "static/js/2.12020b11.chunk.js": "/20-react-portfolio/static/js/2.12020b11.chunk.js",
-    "static/js/2.12020b11.chunk.js.map": "/20-react-portfolio/static/js/2.12020b11.chunk.js.map",
-    "static/js/3.a4e78aa4.chunk.js": "/20-react-portfolio/static/js/3.a4e78aa4.chunk.js",
-    "static/js/3.a4e78aa4.chunk.js.map": "/20-react-portfolio/static/js/3.a4e78aa4.chunk.js.map",
+    "main.js": "/20-react-portfolio/static/js/main.7b2ec5fd.chunk.js",
+    "main.js.map": "/20-react-portfolio/static/js/main.7b2ec5fd.chunk.js.map",
+    "runtime-main.js": "/20-react-portfolio/static/js/runtime-main.2b8e2073.js",
+    "runtime-main.js.map": "/20-react-portfolio/static/js/runtime-main.2b8e2073.js.map",
+    "static/js/2.8eb2172b.chunk.js": "/20-react-portfolio/static/js/2.8eb2172b.chunk.js",
+    "static/js/2.8eb2172b.chunk.js.map": "/20-react-portfolio/static/js/2.8eb2172b.chunk.js.map",
+    "static/js/3.8dc5a39c.chunk.js": "/20-react-portfolio/static/js/3.8dc5a39c.chunk.js",
+    "static/js/3.8dc5a39c.chunk.js.map": "/20-react-portfolio/static/js/3.8dc5a39c.chunk.js.map",
     "index.html": "/20-react-portfolio/index.html",
     "static/css/main.7d92ae85.chunk.css.map": "/20-react-portfolio/static/css/main.7d92ae85.chunk.css.map",
-    "static/js/2.12020b11.chunk.js.LICENSE.txt": "/20-react-portfolio/static/js/2.12020b11.chunk.js.LICENSE.txt",
+    "static/js/2.8eb2172b.chunk.js.LICENSE.txt": "/20-react-portfolio/static/js/2.8eb2172b.chunk.js.LICENSE.txt",
     "static/media/allan-heroImg.jpg": "/20-react-portfolio/static/media/allan-heroImg.cd22da85.jpg",
     "static/media/budget-tracker.png": "/20-react-portfolio/static/media/budget-tracker.32c38cd2.png",
     "static/media/celiac.png": "/20-react-portfolio/static/media/celiac.0728ee4e.png",
     "static/media/on-hand-cooking.png": "/20-react-portfolio/static/media/on-hand-cooking.b697851c.png",
+    "static/media/resumeAPirillis.761fc9cb.pdf": "/20-react-portfolio/static/media/resumeAPirillis.761fc9cb.pdf",
     "static/media/stack-tracker.png": "/20-react-portfolio/static/media/stack-tracker.02dfe12b.png",
     "static/media/weather-dashboard.png": "/20-react-portfolio/static/media/weather-dashboard.794c64b7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac7c1055.js",
-    "static/js/2.12020b11.chunk.js",
+    "static/js/runtime-main.2b8e2073.js",
+    "static/js/2.8eb2172b.chunk.js",
     "static/css/main.7d92ae85.chunk.css",
-    "static/js/main.3b9951fa.chunk.js"
+    "static/js/main.7b2ec5fd.chunk.js"
   ]
 }
