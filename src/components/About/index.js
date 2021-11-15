@@ -33,7 +33,8 @@ function About() {
             <strong>TECHNICAL SKILLS</strong>
           </p>
           <p className="mb-1 is-flex">
-            <em>Languages</em>: JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, Java
+            <em>Languages</em>: JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, Java,
+            Ladder Logic
           </p>
           <p className="mb-1 is-flex">
             <em>Applications</em>: GitHub, MongoDB, MySQL, GraphQL
