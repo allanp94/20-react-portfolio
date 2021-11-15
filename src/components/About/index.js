@@ -28,6 +28,22 @@ function About() {
             quote: "Save food but don't save any work"
           </span>
         </div>
+        <div className="mt-6 ">
+          <p className="mb-4">
+            <strong>TECHNICAL SKILLS</strong>
+          </p>
+          <p className="mb-1 is-flex">
+            <em>Languages</em>: JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, Java
+          </p>
+          <p className="mb-1 is-flex">
+            <em>Applications</em>: GitHub, MongoDB, MySQL, GraphQL
+          </p>
+          <p className="mb-1 is-flex">
+            <em>Tools</em>: Express, React, Node, Handlebars, Query, Bootstrap,
+            Sequelize, Mongoose, Bulma, Tailwind, ZURB Foundation, Bcrypt,
+            Redux, PWA, JWT, REST
+          </p>
+        </div>
       </div>
     </section>
   );
