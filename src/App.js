@@ -11,7 +11,6 @@ function App() {
   const navOptions = [
     { name: "About Me" },
     { name: "Portfolio" },
-    { name: "Contact" },
     { name: "Resume" },
   ];
 
@@ -23,8 +22,6 @@ function App() {
         return <About />;
       case "Portfolio":
         return <Portfolio />;
-      case "Contact":
-        return <Contact />;
       case "Resume":
         return <Resume />;
       default:
