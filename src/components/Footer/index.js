@@ -21,7 +21,15 @@ const Footer = () => {
             <div>
               <span className="content is-small">
                 Created and Designed by{" "}
-                <span className="allan-user is-small">Allan Pirillis</span>
+                <span className="allan-user is-small">Allan Pirillis</span>{" "}
+                <a
+                  className="allan-user email"
+                  href="mailto:allan.p94@gmail.com"
+                  target="_blank"
+                  rel="nonreferrer"
+                >
+                  allan.p94@gmail.com
+                </a>
               </span>
             </div>
           </div>
