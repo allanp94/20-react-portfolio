@@ -34,15 +34,16 @@ function About() {
           </p>
           <p className="mb-1 is-flex">
             <em>Languages</em>: JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, Java,
-            Ladder Logic
+            Ladder Logic, Python
           </p>
           <p className="mb-1 is-flex">
-            <em>Applications</em>: GitHub, MongoDB, MySQL, GraphQL
+            <em>Applications</em>: GitHub, MongoDB, MySQL, GraphQL, SQLAlchemy,
+            DynamoDB
           </p>
           <p className="mb-1 is-flex">
             <em>Tools</em>: Express, React, Node, Handlebars, Query, Bootstrap,
             Sequelize, Mongoose, Bulma, Tailwind, ZURB Foundation, Bcrypt,
-            Redux, PWA, JWT, REST
+            Redux, PWA, JWT, RESTful, Jinja, Flask
           </p>
         </div>
       </div>

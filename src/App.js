@@ -14,7 +14,7 @@ function App() {
     { name: "Resume" },
   ];
 
-  const [currentOption, setCurrentOption] = useState(navOptions[0]);
+  const [currentOption, setCurrentOption] = useState(navOptions[0].name);
 
   const renderOption = (optionName) => {
     switch (optionName) {
